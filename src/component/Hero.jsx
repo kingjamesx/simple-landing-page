@@ -12,7 +12,7 @@ import sstar from '../assets/images/sstar.svg'
 
 const Hero = () => {
   return (
-    <div>
+    <div >
         <span className='circle1'><img src={circle1} alt="" /></span>
         <span className='circle2'><img src={circle2} alt="" /></span>
         <span className='circle3'><img src={circle3} alt="" /></span>

@@ -2,6 +2,7 @@ import React from 'react'
 import star from '../assets/images/bluestar.svg'
 import bstar from '../assets/images/bstar.svg'
 import sstar from '../assets/images/sstar.svg'
+import circle2 from '../assets/images/circle2.svg'
 
 
 import line from '../assets/images/line.svg'
@@ -14,7 +15,9 @@ const Article = () => {
         <span className='article-bstar1'><img src={bstar} alt="" /></span>
         <span className='article-bstar2'><img src={bstar} alt="" /></span>
         <span className='article-sstar'><img src={sstar} alt="" /></span>
+        <span className='article-circle'><img src={circle2} alt="" /></span>
 
+  
 
 
         <section className='section-1'>
@@ -33,15 +36,15 @@ const Article = () => {
             <div className='side-box'>
             <h2 className='articleform-title'>Book a Consultation with us</h2>
             <form action=" " className='article-form'>
-                <input  type="text" placeholder='Enter your full name' />
-                <input type="text" placeholder='Enter your work email'/>
-                <input type="text" placeholder='Mobile number' />
-                <input type="text" placeholder='Company Name'/>
-                <select name="" id="">
+             <span className='article-form-box'><input  type="text" placeholder='Enter your full name' /></span>  
+             <span className='article-form-box'><input type="text" placeholder='Enter your work email'/></span>   
+             <span className='article-form-box'><input type="text" placeholder='Mobile number' /></span>   
+             <span className='article-form-box'><input type="text" placeholder='Company Name'/></span>   
+             <span className='article-form-box'> <select name="" id="">
                     <option value="">Select Country</option>
                     <option value="">Nigeria</option>
 
-                </select>
+                </select></span>  
                <textarea name="" id="" cols="30" rows="10" placeholder='Drop a message...' className='article-textarea'></textarea>
                <button className='article-btn'>Send Request</button>
             </form>
